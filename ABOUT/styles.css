@@ -1,0 +1,16 @@
+body {
+	background-color:#e3e2d1;
+	text-align: center;
+	color: black;
+}
+
+h1{
+	color: black;
+	font-family:sans-serif;
+	
+}
+
+ul.a {
+  list-style-type: square;
+  /*position: ;*/
+}
