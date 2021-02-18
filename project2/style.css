@@ -1,0 +1,62 @@
+@font-face {
+	font-family: Christina;
+	src:url(Christina.otf); 
+}
+div {
+	font-family: Quicksand;
+	src:url(Quicksand-Regular.otf);
+	src:url(Quicksand-Italic.otf);
+	src:url(Quicksand-Bold.otf);
+}
+
+body {
+	background-color:#eb96b8;
+	text-align: left;
+	color: white;
+	background-image: url('hearts.jpg');
+}
+
+h1{
+	font-family: Christina;
+	font-weight: lighter;
+	color: #bf1f5f;
+	font-size: 100px; 
+	text-align: center;
+	
+}
+
+h2{
+	font-family: Quicksand;
+	font-style: italic;
+	color: #bf1f5f;
+} 
+
+ul{
+	font-family: Quicksand;
+	font-style: bold; 
+	color: black;
+
+}
+
+ol{
+	font-family: Quicksand;
+	font-style: bold;
+	color: black;
+}
+
+blockquote{
+	display: block;
+	font-family: Christina;
+	font-weight: lighter;
+	color: #611f3f;
+	font-size: 45px;
+	text-align: center;
+}
+
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+ 
