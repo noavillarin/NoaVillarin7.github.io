@@ -1,0 +1,56 @@
+@font-face{
+	font-family: TraderJoes-JYrx;
+	src:url(TraderJoes-JYrx.otf);
+}
+div{
+	font-family: texgyreschola-regular;
+	src:url(texgyreschola-regular.otf)
+}
+body{
+	background-color: #f5f06c;
+}
+div.header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 10px;
+  background: #f56cce;
+  color: white;
+}
+ 
+.one img{
+	float: center;
+	width: 30%;
+
+}
+.two img{
+	float: left;
+	width: 50%;
+}
+.three img{
+	float: right;
+	width: 20%;
+	height: auto;
+}
+h1{
+	font-family: TraderJoes-JYrx;
+	width: 50%;
+	float: left;
+}
+.text{
+	font-family: texgyreschola-regular;
+	width: 50%;
+	float: right;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+h1{
+	width: 100%;
+}
+.text, .one, .two,.three {
+	width: 100%;
+}
+
+}
