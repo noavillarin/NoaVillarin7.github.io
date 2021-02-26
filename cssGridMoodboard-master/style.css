@@ -2,6 +2,8 @@
 	font-family: RightGrotesk-WideMediumItalic;
 	src:url( RightGrotesk-WideMediumItalic.otf);
 	font-style: italic;
+	font-stretch: expanded; 
+	font-weight: medium;
 }
 
 .grid-container{
