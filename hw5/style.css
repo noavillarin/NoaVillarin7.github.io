@@ -1,0 +1,57 @@
+@font-face{
+	font-family: RightGrotesk-WideMediumItalic;
+	src:url( RightGrotesk-WideMediumItalic.otf);
+	font-style: italic;
+}
+
+.grid-container{
+	display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  grid-gap: 10px;
+  background-color: black;
+  padding: 10px;   
+	/*Define styles for grid-container here*/
+}
+
+/*Define styles for grid items here*/
+.item1{
+	font-family: RightGrotesk-WideMediumItalic;
+	color: #db3f27;
+	background-color:#fcfcf2;
+	border: 1px;
+  font-size: 85px;
+  text-align: center;
+}
+.item2 {
+	border-image-width: 1px;
+	text-align: center;
+
+}
+
+.item3 {
+	background-color:#b0ecf5;
+	border: 1px;
+  padding: 80px;
+}
+
+.item4{
+	background-image: url( circle.jpg);
+	border: 1px;
+  padding: 30px;
+
+}
+
+.item5 {
+	background-image: url(videodays.jpg);
+	border: 1px;
+  padding: 100px;
+}
+
+
+
+
+
+
