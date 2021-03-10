@@ -1,0 +1,24 @@
+@font-face {
+	font-family: RightGrotesk;
+	src:url(RightGrotesk-CompactBlack.otf);
+	font-style: normal;
+	font-weight: normal; 
+}
+body{
+	background-color: #f7f423;
+	text-align: center;
+	color: black;
+}
+
+h1{ 
+	font-family: RightGrotesk;
+	font-style: normal;
+	font-weight: normal;
+	text-align: center;
+	font-size: 200px;
+	padding-top: 10%;
+	 }
+a{
+	text-decoration: none;
+	color: black;
+}

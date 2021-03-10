@@ -1,0 +1,27 @@
+@font-face{
+	font-family: RightGrotesk-WideMediumItalic;
+	src:url(RightGrotesk-WideMediumItalic.otf);
+	font-style:italic;
+	font-stretch: expanded;
+	font-weight: medium;
+}
+body{
+	background-color: #fcf40d;
+}
+div.line{
+	font-family: RightGrotesk-WideMediumItalic;
+	color: #2253e6;
+	text-align: left;
+	font-size: 40px;
+	width: 900px;
+	padding-left: 20%;
+	padding-top: 5%;;
+}
+a{
+	text-align: right;
+	font-size: 70px;
+	padding-left: 50%;
+	padding-bottom: 10%;
+	text-decoration: none;
+	color: #2253e6;
+}
