@@ -1,0 +1,26 @@
+body {
+	background-color:#e3e2d1;
+	text-align: center;
+	color: black;
+}
+
+h1{
+	color: black;
+	font-family:sans-serif;
+	
+}
+  	/* unvisited link */
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+}
