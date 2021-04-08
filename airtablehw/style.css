@@ -1,0 +1,31 @@
+.genreTag {
+  padding:4px 8px;
+  border: 1px solid black;
+  margin: 4px;
+}
+
+.songContainer{
+  padding:16px 24px;
+  border:1px solid black;
+  margin:8px;
+}
+h1{
+	font-family: Train One;
+	text-align: center;
+	font-size: 45px;
+
+}
+h2{
+	font-family: Bebas Neue;
+}
+p{
+	font-family: Catamaran;
+}
+button{
+	background-color: red;
+	font-family: Bebas Neue;
+	font-size: 30px;
+}
+.filter{
+	text-align: center;
+}

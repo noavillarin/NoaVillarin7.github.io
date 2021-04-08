@@ -7,14 +7,15 @@ var Airtable = require("airtable");
 // use the airtable library to get a variable that represents one of our bases
 // We needed to put in the right apiKey and
 // base ID here!
-var base = new Airtable({ apiKey: "MY_API_KEY" }).base(
-  "BASE_ID"
+var base = new Airtable({ apiKey: "keyJ6qCYZqg4THJI4" }).base(
+  "appJOuTzrEnspW01T"
 );
 
 // Get the "songs" table from the base,
 // specify the view (which should be SORTED by rating),
 // and specify the callback functions that will receive each page of data
 base("songs").select({
+  view: "ratings"
   // TODO: add your view in here
 }).eachPage(gotPageOfData, gotAllData);
 
@@ -104,6 +105,8 @@ function showData() {
       genreElement.innerText = genre;
       songContainer.appendChild(genreElement);
 
+      songContainer.classList.add(genre);
+
       // TODO: Add this genre name as a class to the songContainer
 
 
@@ -113,6 +116,82 @@ function showData() {
     /***********
      TODO: CREATE FILTER-BY-GENRE FUNCTIONALITY
      **********/
+     let filterShoegaze = document.querySelector("#shoegaze");
+    filterShoegaze.addEventListener("click", function(){
+        if (songContainer.classList.contains("shoegaze")){
+        songContainer.style.display = "block";
+         }else{
+        songContainer.style.display = "none"
+    }
+    });
+    let filterDreampop = document.querySelector("#dreampop");
+    filterDreampop.addEventListener("click", function(){
+        if (songContainer.classList.contains("dreampop")){
+        songContainer.style.display = "block";
+         }else{
+        songContainer.style.display = "none"
+    }
+    });
+    let filterPop = document.querySelector("#pop");
+    filterPop.addEventListener("click", function(){
+    if (songContainer.classList.contains("pop")){
+        songContainer.style.display = "block";
+    }else{
+        songContainer.style.display = "none"
+    }
+    });
+    let filterJazz = document.querySelector("#jazz");
+    filterJazz.addEventListener("click", function(){
+    if (songContainer.classList.contains("jazz")){
+        songContainer.style.display = "block";
+    }else{
+        songContainer.style.display = "none"
+    }
+    });
+    let filterHiphop = document.querySelector("#hiphop");
+    filterHiphop.addEventListener("click", function(){
+    if (songContainer.classList.contains("hiphop")){
+        songContainer.style.display = "block";
+    }else{
+        songContainer.style.display = "none"
+    }
+    });
+    let filterElectropop = document.querySelector("#electropop");
+    filterElectropop.addEventListener("click", function(){
+    if (songContainer.classList.contains("electropop")){
+        songContainer.style.display = "block";
+    }else{
+        songContainer.style.display = "none"
+    }
+    });
+    let filterAlternative = document.querySelector("#alternative");
+    filterAlternative.addEventListener("click", function(){
+    if (songContainer.classList.contains("alternative")){
+        songContainer.style.display = "block";
+    }else{
+        songContainer.style.display = "none"
+    }
+    });
+     let filterRandb = document.querySelector("#randb");
+    filterRandb.addEventListener("click", function(){
+    if (songContainer.classList.contains("randb")){
+        songContainer.style.display = "block";
+    }else{
+        songContainer.style.display = "none"
+    }
+    });
+    let filterIndiepop = document.querySelector("#indiepop");
+    filterIndiepop.addEventListener("click", function(){
+    if (songContainer.classList.contains("indiepop")){
+        songContainer.style.display = "block";
+    }else{
+        songContainer.style.display = "none"
+    }
+    });
+    let filterReset = document.querySelector("#reset");
+    filterReset.addEventListener("click", function(){
+        songContainer.style.display = "block";
+    });
 
 
      
