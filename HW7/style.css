@@ -1,0 +1,28 @@
+header {
+display: none;
+}
+p{
+	font-family: Arial Black;
+	font-size: 45px;
+	color: white;
+	margin: 8px;
+	text-align: center;
+
+}
+
+#tattoo{
+	width: 33.3%;
+	float: left;
+}
+#me{
+	width: 33.6%;
+	float: center;
+}
+#corn{
+	width: 32%;
+	float: right;
+}
+.clear{
+	opacity: 25%;
+	/*Define your CSS here*/
+}
