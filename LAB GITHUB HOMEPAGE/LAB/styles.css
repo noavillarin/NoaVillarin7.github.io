@@ -1,0 +1,37 @@
+body{
+	background-color:#e3e2d1;
+	text-align: center;
+	color: black;
+}
+h1{
+	color: black;
+	font-family:sans-serif;
+	border: 2px solid black;
+	border-radius: 100%;
+	background: #85898f;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+
+p{
+	color: black;
+	font-size: 30px;
+	font-family:sans-serif;
+	border: 2px solid black;
+	border-radius: 100%;
+	background: #3ced28;
+	padding-top: 13px;
+	padding-bottom: 13px;
+	padding-left: 25px;
+	padding-right: 25px;
+
+}
+a:link {
+	color: black;
+	text-decoration: none;
+	
+}
+a:hover{
+	color: hotpink;
+	font-family: PLayfair Display SC;
+}

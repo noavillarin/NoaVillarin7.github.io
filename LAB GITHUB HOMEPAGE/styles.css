@@ -7,20 +7,43 @@ body {
 h1{
 	color: black;
 	font-family:sans-serif;
+	border: 3px solid black;
+	border-radius: 100%;
+	background: #85898f;
+	padding-top: 7px;
+	padding-bottom: 7px;
 	
 }
-  	/* unvisited link */
+	
+h2 {
+	 color: black;
+  text-decoration: none;
+  font-family:sans-serif;
+	border: 3px solid black;
+	border-radius: 100%;
+	background: #85898f;
+	padding-top: 20px;
+
+	}	
+	/* unvisited link */
 a:link {
   color: black;
+  text-decoration: none;
+  /*font-family:sans-serif;
+	border: 2px solid black;
+	border-radius: 100%;
+	background: #85898f;
+	width: 40px;*/
+
 }
 
 /* visited link */
 a:visited {
-  color: green;
+  color: black;
 }
 
 /* mouse over link */
 a:hover {
-  color: hotpink;
-}
+  color: #3ced28;
+  font-family: PLayfair Display SC;
 }
