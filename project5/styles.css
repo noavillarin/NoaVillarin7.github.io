@@ -1,0 +1,97 @@
+
+
+body {
+	background-image: url("mall1.png");
+	background-size: 1700px;
+	display: block;
+}
+
+h1{
+	text-align: center;
+	color: black;
+	font-family: Ruslan Display;
+	font-size: 60px;
+	
+}
+
+button{
+	background-color: #4d77eb;
+	text-align:center;
+	color: black;
+	outline: 2px black;
+	border-radius: 50%;
+	position: absolute;
+	top: 70px;
+	left:100px;
+	font-family: Ruslan Display;
+	font-size: 30px;
+	height: 75px;
+	width: 150px;
+}
+
+.rats{
+	top: 100px;
+	background-color: #e67ade;
+	position:absolute;
+	top: 550px;
+}
+
+.food{
+	top: 100px;
+	background-color:#faf893;
+	position: absolute;
+	top: 550px;
+	left: 1400px;
+}
+
+.block{
+	color: black;
+	padding: 60px;
+	background-color: #399941;
+	border: 2px solid black;
+	margin-top: 605px;
+
+}
+  #canvas{
+    position: fixed;
+    top:0px;
+    left:0px;
+    width:100vw;
+    height:100vh;
+  }
+  
+  .rat1 {
+    position:absolute;
+  }
+  ::selection {
+    color: none;
+    background: none;
+}
+#rat1 {
+	height: 150px;
+	width:200px;
+	position: absolute;
+	margin-left: 800px;
+	margin-top: 550px;
+}
+
+#div1{
+	
+}
+/*::selection {
+  background: none; 
+}
+
+#canvas{
+  position: fixed;
+  top:0px;
+  left:0px;
+  width:100vw;
+  height:100vh;
+
+}
+
+.emoji {
+  font-size: 28px;
+  position: absolute;
+}*/
